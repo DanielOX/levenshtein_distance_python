@@ -56,9 +56,6 @@ target = 'Danielo'
 source = normalise(source)
 target = normalise(target)
 
-source = normalise(source)
-target = normalise(target)
-
 distance, Distancematrix =  min_edit_distance(source, target)
 
 print(f"Levenshtien Distance: {distance}\n")
